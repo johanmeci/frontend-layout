@@ -1,6 +1,6 @@
 # ⚓ **The Lighthouse**
 
-## Link: <a href="https://johanfrontendtm.herokuapp.com" target="_blank">The Lighthouse</a>
+### Link: <a href="https://johanfrontendtm.herokuapp.com" target="_blank">The Lighthouse</a>
 
 ![frontend test](public/img/img_slide_1.jpg 'img frontend test')
 
