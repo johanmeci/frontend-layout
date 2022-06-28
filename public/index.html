@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Frontend Developer | Test</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
@@ -19,12 +20,20 @@
       </ul>
     </nav>
   </header>
-  <section class="slider swiper">
+  <section class="swiper">
     <div class="swiper-wrapper">
-      <div class="swiper-slide"><img src="img/img_slide_1.jpg" alt="img slide 01"></div>
-      <!-- <div class="swiper-slide"><img src="img/img_slide_1.jpg" alt=""></div>
-      <div class="swiper-slide"><img src="img/img_slide_1.jpg" alt=""></div> -->
+      <div class="swiper-slide">
+        <img src="img/img_slide_1.jpg" alt="section bird img">
+      </div>
+      <div class="swiper-slide">
+        <img src="img/img_slide_1.jpg" alt="section bird img">
+      </div>
+      <div class="swiper-slide">
+        <img src="img/img_slide_1.jpg" alt="section bird img">
+      </div>
     </div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
   </section>
 
   <main class="main container">
@@ -61,5 +70,7 @@
       <img class="footer__logo" src="img/film_logo.svg" alt="footer logo">
     </div>
   </footer>
+
+  <script type="module" src="js/index.js"></script>
 </body>
 </html>
