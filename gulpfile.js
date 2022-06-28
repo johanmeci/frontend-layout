@@ -1,6 +1,7 @@
 const gulp = require('gulp')
 const browserSync = require('browser-sync').create()
 const sass = require('gulp-sass')(require('sass'))
+const minifyCss = require('gulp-clean-css')
 
 gulp.task('serve', function () {
   
@@ -21,6 +22,7 @@ gulp.task('sass', function () {
 
   return gulp.src('public/sass/*.scss')
     .pipe(sass())
+    .pipe(minifyCss())
     .pipe(gulp.dest('public/css'))
     .pipe(browserSync.stream())
 })
