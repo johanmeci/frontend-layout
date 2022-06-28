@@ -4,10 +4,62 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="/css/index.css">
+  <title>Frontend Developer | Test</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-  <h1>Test</h1>
+  <header class="header navbar bg-light d-flex">
+    <h1 class="header__title fw-bold">the lighthouse</h1>
+    <nav class="header__menu fw-bold w-100">
+      <ul class="menu d-flex align-items-center m-0 p-0 list-unstyled text-center">
+        <li class="menu__item flex-grow-1"><a class="menu__link" href="#">movie</a></li>
+        <li class="menu__item flex-grow-1"><a class="menu__link" href="#">cast</a></li>
+        <li class="menu__item flex-grow-1"><a class="menu__link" href="#">director</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="slider swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="img/img_slide_1.jpg" alt="img slide 01"></div>
+      <!-- <div class="swiper-slide"><img src="img/img_slide_1.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="img/img_slide_1.jpg" alt=""></div> -->
+    </div>
+  </section>
+
+  <main class="main container">
+    <section class="main__section main__section--img">
+      <img src="img/the_lighthouse_0.jpg" alt="section bird img">
+    </section>
+
+    <section class="main__section main__section--detail">
+
+      <section class="main__section--card main__section--card--img">
+        <p class="main__text">From Robert Eggers, the visionary filmmaker behind modern horror masterpiece The Witch, comes this hypnotic and hallucinatory tale of two lighthouse keepers on a remote and mysterious New Englandd island in the 1890s</p>
+        <div class="main__images">
+          <img src="img/the_lighthouse_1.jpg" alt="section movie img 1">
+          <img src="img/the_lighthouse_1.jpg" alt="section movie img 2">
+        </div>
+      </section>
+
+      <section class="main__section--card main__section--card--info">
+        <img class="main__img--logo" src="img/film_logo.svg" alt="logo info company film">
+        <p class="main__text--info">The company behind Uncut Gems, Midsommar, Lady Bird, Moonlight, Ramy, Euphoria & more</p>
+      </section>
+    </section>
+    
+  </main>
+
+  <footer class="footer bg-black">
+    <div class="footer__social">
+      <span class="footer__title">follow</span>
+      <img class="footer__icon" src="img/icons/icon_facebook.svg" alt="facebook icon">
+      <img class="footer__icon" src="img/icons/icon_twitter.svg" alt="twitter icon">
+      <img class="footer__icon" src="img/icons/icon_instagram.svg" alt="instagram icon">
+      <img class="footer__icon" src="img/icons/icon_tumblr.svg" alt="tumblr icon">
+      <img class="footer__icon" src="img/icons/icon_youtube.svg" alt="youtube icon">
+      <img class="footer__logo" src="img/film_logo.svg" alt="footer logo">
+    </div>
+  </footer>
 </body>
 </html>
